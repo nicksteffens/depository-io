@@ -1,0 +1,5 @@
+# Bower Assets
+public/assets/lib/
+
+# Node Modules
+node_modules/

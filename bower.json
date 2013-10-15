@@ -1,0 +1,19 @@
+{
+  "name": "depository-io",
+  "version": "0.0.1",
+  "authors": [
+    "Nick Steffens <nsteffens@gmail.com>"
+  ],
+  "description": "Social tool to keep track of anything a user would like to track",
+  "keywords": [
+    "social",
+    "depository",
+    "collector"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.0.8",
+    "bootstrap": "3.0.0",
+    "jquery": "2.0.3"
+  }
+}
