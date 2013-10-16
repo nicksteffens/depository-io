@@ -1,19 +1,20 @@
 {
   "name": "depository-io",
-  "version": "0.3.0",
+  "version": "0.0.1",
   "author": "Nick Steffens <nsteffens@gmail.com>",
   "description": "Social tool to help anyone keep track of something they collect",
   "contributors": [{}],
 
-  "main": "./lib/http-server",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nicksteffens/http-server.git"
+    "url": "https://github.com/nicksteffens/depository-io"
   },
+
   "keywords": [
     "depository",
     "harp"
   ],
+
   "dependencies" : {
     "harp" :  "0.9.3",
     "bower": "1.2.7"

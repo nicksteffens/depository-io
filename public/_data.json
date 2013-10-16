@@ -1,0 +1,10 @@
+{
+  "index" : {
+    "section": false,
+    "content": "Welcome to depository io. Home of the collection of collectors. From shoes to whatever."
+  },
+
+  "shoe": {
+    "source": "shoe"
+  }
+}

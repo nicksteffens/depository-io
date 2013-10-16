@@ -1,0 +1,17 @@
+
+mixin active(link)
+  li(class="#{link.isActive ? 'active' : ''}")
+    if link.isActive
+      span(class='#{link.title == "index" ? 'glyphicon glyphicon-home' : ''}') #{link.title == "index" ? '' : link.title}
+    else
+      a(class='#{link.title == "index" ? 'glyphicon glyphicon-home' : ''}', href="#{link.path}") #{link.title == "index" ? '' : link.title}
+
+ol.breadcrumb
+  each route in routes
+    if current.path[0] == route.title
+      - var b = true
+    else
+      - var b = false
+    +active({title: route.title, path: route.route, isActive: b})
+
+

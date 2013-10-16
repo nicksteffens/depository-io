@@ -1,0 +1,17 @@
+{
+  "globals": {
+    "app": {
+      "title": "depository.io"
+      },
+    "routes":  [
+      {
+        "route": "/",
+        "title": "index"
+      },
+      {
+        "route": "shoe/",
+        "title": "shoe"
+      }
+    ]
+  }
+}

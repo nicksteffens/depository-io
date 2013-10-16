@@ -1,0 +1,18 @@
+{
+  "index": {
+    "shoes": [
+      {
+        "model": "Shoe 1",
+        "brand": "Nike",
+        "color": "Blue/Black",
+        "size": "9",
+        "purchased": {
+          "date": "2013-10-10",
+          "location": "nike.com",
+          "type": "online"
+        }
+      }
+    ]
+  }
+
+}
